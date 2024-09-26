@@ -1,0 +1,26 @@
+
+Opdater github kun med denne linie 26-09-2024
+ng deploy --base-href=/
+
+
+Så der kan uploades til Github:
+Opret først ny Brance i github med navnet: gh-pages
+
+
+Installer i angular projektet:
+npm i angular-cli-ghpages
+
+Opload til github:
+ng deploy --base-href=/krebs
+
+
+*** HUSK at gå til git og sæt domæne: krebs.dk ***
+
+Oprettet på git med:
+echo "# Krebs-M2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Godthaab/Krebs-M2.git
+git push -u origin main
