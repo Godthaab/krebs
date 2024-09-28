@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Krebs:build:production"
+              "buildTarget": "Krebs:build:production"
             },
             "development": {
-              "browserTarget": "Krebs:build:development"
+              "buildTarget": "Krebs:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Krebs:build"
+            "buildTarget": "Krebs:build"
           }
         },
         "test": {
