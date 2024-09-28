@@ -15,7 +15,14 @@ ng deploy --base-href=/krebs
 
 
 *** HUSK at gå til git og sæt domæne: krebs.dk ***
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Godthaab/krebs.git
+git push -u origin main
 
+Nedenstående udgik 26 september 2024
 Oprettet på git med:
 echo "# Krebs-M2" >> README.md
 git init
