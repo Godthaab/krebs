@@ -1,7 +1,7 @@
 
 Opdater github kun med denne linie 26-09-2024
 ng deploy --base-href=/
-
+ 
 
 Så der kan uploades til Github:
 Opret først ny Brance i github med navnet: gh-pages
