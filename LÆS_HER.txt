@@ -1,10 +1,13 @@
 Opret først ny Brance i github med navnet: gh-pages
 Det er vigtigt for at du kan uploade filerne!
 
+
+ng deploy
+
 Opdater github kun med denne linie 26-09-2024
 ng deploy --base-href=/
  
-
+ng deploy --base-href=/
 Så der kan uploades til Github:
 Opret først ny Brance i github med navnet: gh-pages
 
@@ -33,3 +36,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Godthaab/Krebs-M2.git
 git push -u origin main
+
+
+ng deploy --base-href=/
+ng deploy
